@@ -3,8 +3,6 @@
 #include "string"
 #include "vector"
 
-// 4, 16 Структура "сотрудник" (поля: ФИО, дата приема на работу, должность, базовый оклад)
-
 using namespace std;
 
 struct employee
