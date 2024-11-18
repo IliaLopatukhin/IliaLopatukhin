@@ -52,9 +52,9 @@ int main()
 
     ifstream fin("file.txt");
     string line;
-    while (std::getline(fin, line))
+    while (getline(fin, line))
     {
-        std::cout << line << std::endl;
+        cout << line << endl;
     }
     fin.close();
 
@@ -62,9 +62,9 @@ int main()
 
     ifstream fin1("fileBIN.txt");
     string line1;
-    while (std::getline(fin1, line1))
+    while (getline(fin1, line1))
     {
-        std::cout << line1 << std::endl;
+        cout << line1 << endl;
     }
     fin1.close();
 }
